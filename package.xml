@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <package>
     <name>Eg_SaveInvoice</name>
-    <version>0.1.1</version>
+    <version>0.1.2</version>
     <stability>beta</stability>
     <license>GNU</license>
     <channel>community</channel>
@@ -12,9 +12,9 @@
 A shell utility is provided for saving invoice manually by increment id. </description>
     <notes>This extension Is still in beta otherwise it's running in production on some stores.</notes>
     <authors><author><name>Emanuele Gian</name><user>emastyle</user><email>emastyle@libero.it</email></author></authors>
-    <date>2016-02-27</date>
-    <time>17:12:48</time>
-    <contents><target name="magecommunity"><dir name="Eg"><dir name="SaveInvoice"><dir name="Helper"><file name="Data.php" hash="548bb0e5d1c06ab862e2e8fa5ff959e6"/></dir><dir name="Model"><file name="Export.php" hash="cbbb9ecd404aa8349f3c3b5d522a9952"/><file name="Observer.php" hash="b97a2d9dd6c353856fb507838a067059"/></dir><dir name="etc"><file name="config.xml" hash="689cd412fd9e53c6c4554dfcad603a8b"/><file name="system.xml" hash="c9b173b12e31ca515288d4c7245f0ee5"/></dir></dir></dir></target><target name="mageetc"><dir name="modules"><file name="Eg_SaveInvoice.xml" hash="0c57fd8ee1c2d0dcc2aee492fec1925a"/></dir></target><target name="mage"><dir name="."><dir name="shell"><file name="EgSaveInvoice.php" hash="bdfcd3e59af4c3eb600c9d23d493253d"/></dir></dir></target></contents>
+    <date>2016-03-03</date>
+    <time>15:59:21</time>
+    <contents><target name="magecommunity"><dir name="Eg"><dir name="SaveInvoice"><dir name="Helper"><file name="Data.php" hash="548bb0e5d1c06ab862e2e8fa5ff959e6"/></dir><dir name="Model"><file name="Export.php" hash="cbbb9ecd404aa8349f3c3b5d522a9952"/><file name="Observer.php" hash="b97a2d9dd6c353856fb507838a067059"/></dir><dir name="etc"><file name="config.xml" hash="5d7b93fc727632a16dba494c9aba581f"/><file name="system.xml" hash="c9b173b12e31ca515288d4c7245f0ee5"/></dir></dir></dir></target><target name="mageetc"><dir name="modules"><file name="Eg_SaveInvoice.xml" hash="0c57fd8ee1c2d0dcc2aee492fec1925a"/></dir></target><target name="mage"><dir name="."><dir name="shell"><file name="EgSaveInvoice.php" hash="bdfcd3e59af4c3eb600c9d23d493253d"/></dir></dir></target></contents>
     <compatible/>
-    <dependencies><required><php><min>5.2.17</min><max>5.6.0</max></php></required></dependencies>
+    <dependencies><required><php><min>5.3.0</min><max>5.6.0</max></php></required></dependencies>
 </package>
