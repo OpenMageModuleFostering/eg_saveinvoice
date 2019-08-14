@@ -3,9 +3,7 @@
     "type": "magento-module",
     "license": "GNU",
     "homepage": "",
-    "description": "Every invoice created will be saved as pdf file on filesystem in a configurable path from admin.
-
-A shell utility is provided for saving invoice manually by increment id. 
+    "description": "This extension for Magento enables saving PDF invoices on filesystem.
 
 Once installed go to backend in System > Configuration > Sales > Save Pdf Invoice to file system, here enable the extension and configure the path on server where pdf invoices will to be saved.
 
