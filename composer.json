@@ -1,0 +1,16 @@
+{
+    "name": "OpenMageModuleFostering/Eg_SaveInvoice",
+    "type": "magento-module",
+    "license": "GNU",
+    "homepage": "",
+    "description": "This magento extension enables saving PDF invoices on filesystem.",
+    "authors": [
+    {
+        "name": "Emanuele Gian",
+        "email": "emastyle@libero.it"
+    }
+],
+    "suggest": {
+        "magento-hackathon/magento-composer-installer": "*"
+    }
+}
