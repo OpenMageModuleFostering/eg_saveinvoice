@@ -1,24 +1,5 @@
 {
-    "name": "OpenMageModuleFostering/Eg_SaveInvoice",
-    "type": "magento-module",
-    "license": "GNU",
-    "homepage": "",
-    "description": "This extension for Magento enables saving PDF invoices on filesystem.
-
-Once installed go to backend in System > Configuration > Sales > Save Pdf Invoice to file system, here enable the extension and configure the path on server where pdf invoices will to be saved.
-
-If the folder doesn't exists, the extension will create it. Be sure the parent location is accessibile and writable by magento.
-
-The extension doesn't generate exception due to not impact the order flow, otherwise every action/error is logged in a separate log file in {{base_dir}}/var/log/Eg_SevInvoice.log .
-
-",
-    "authors": [
-    {
-        "name": "Emanuele Gian",
-        "email": "emastyle@libero.it"
-    }
-],
-    "suggest": {
-        "magento-hackathon/magento-composer-installer": "*"
-    }
+    "keywords": [
+        "openmage-module"
+    ]
 }
